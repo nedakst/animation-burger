@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mesainis {
+    display: block;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.bandele-top {
+    background-color: #FFA600;
+    border: 0px solid #FFA600;
+    border-radius: 2em 2em .7em .7em;
+    border-bottom: 3px solid #C1810A;
+    height: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    animation: bandele 3s infinite;
+    animation-direction: normal;
+}
+
+.suris {
+    background-color: #FFC900;
+    border: 0px solid #FFC900;
+    border-bottom: 1px solid #C89E03;
+    border-radius: 1px;
+    height: 5px;
+     animation: suris 3s infinite;
+    animation-direction: normal;
+}
+
+.pomidoras {
+    background: #C10707;
+    border: 0px solid #C10707;
+    border-bottom: 1px solid #870505;
+    border-radius: 1px;
+    height: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+    animation: pomidoras 3s infinite;
+    animation-direction: normal;
+}
+
+.svogunas {
+    background-color: #bb0094;
+    border: 0px solid #bb0094;
+    border-top: 15px dotted #D731B4;
+    margin-left: 15%;
+    margin-right: 15%;
+    animation: svogunas 3s infinite;
+    animation-direction: normal;
+}
+
+.rutuliukas {
+    display: inline-block;
+    background-color: #641100;
+    border: 0px solid #641100;
+    height: 35px;
+    width: 50px;
+    border-radius: 100px;
+    vertical-align: middle;
+    animation: rutuliukas 3s infinite;
+    animation-direction: normal;
+
+}
+
+.agurkas {
+    background-color: #229C0E;
+    border: 0px solid #229C0E;
+    border-bottom: 3px solid #1D750F;
+    height: 10px;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    animation: agurkas 3s infinite;
+    animation-direction: normal;
+}
+
+.paplotelis {
+    background-color: #b22003;
+    border: 0px solid #b22003;
+    border-bottom: 1px solid #861903;
+    border-radius: 25px;
+    height: 15px;
+    animation: paplotelis 3s infinite;
+    animation-direction: normal;
+
+}
+
+.bandele {
+    background-color: #FFA600;
+    border: 0px solid #FFA600;
+    border-radius: 1.5em 1.5em 3em 3em;
+    border-top: 3px solid #C1810A;
+    height: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    animation: bandele2 3s infinite;
+    animation-direction: normal;
+
+}
+
+.lekste {
+    background-color: #444;
+    border: 5px solid #444;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    margin-left: -10%;
+    margin-right: -10%;
+
+}
+
+@keyframes bandele {
+    0% {
+        transform: translateY(-140px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes suris {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pomidoras {
+    0% {
+        transform: translateY(-120px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes suris {
+    0% {
+        transform: translateY(-140px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes svogunas {
+    0% {
+        transform: translateY(-160px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes rutuliukas {
+    0% {
+        transform: translateY(-180px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes agurkas {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes paplotelis {
+    0% {
+        transform: translateY(-220px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bandele2 {
+    0% {
+        transform: translateY(-240px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
